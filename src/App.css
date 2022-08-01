@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  display: block;
+   min-height: 100%; /* real browsers */
+   height: auto !important; /* real browsers */
+   height: 100%; /* IE6 bug */
+   
 }
 
 .App-logo {
